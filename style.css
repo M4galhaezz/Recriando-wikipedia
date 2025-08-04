@@ -1,0 +1,67 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+header figure img{
+  height: 100px;
+}
+.bar{
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.container{
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 3rem;
+    background-color: #ffffff;
+    border: solid #cdcdcd 1px;
+    border-top: none;
+}
+main{
+  width: 60%;
+}
+main h1{
+  text-align: center;
+}
+.slidebar{
+  width: 20%;;
+  padding: 10px;
+}
+.slidebar a{
+  text-decoration: none;
+  color: rgb(0, 10, 99);
+}
+.slidebar a:hover{
+  color: rgb(25, 0, 255);
+}
+
+.anchors{
+  padding: 10px;
+  width: 20%;
+}
+.anchors ul li{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+.anchors a{
+  text-decoration: none;
+  color: rgb(0, 10, 99);
+}
+.anchors a:hover{
+  color: rgb(25, 0, 255);
+}
+.linha{
+  border: solid #cdcdcd 1px;
+}
+
+
